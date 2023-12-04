@@ -1,4 +1,3 @@
-import React from "react";
 import Shoe1 from "../images/shoe.png";
 import Shoe2 from "../images/show.png";
 import Shoe3 from "../images/next.png";
