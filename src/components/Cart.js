@@ -15,7 +15,7 @@ const Cart = () => {
     } = useCart();
     const handlePayNow = () => {
         let handler = window.ClanePayPop.setup({
-            key: 'vb_tk_azyweqwpwes', // Replace with your public key
+            key: 'PK_677A96BB77B7F888C16E20240821073452', // Replace with your public key
             email: 'lydiafagbenle24@gmail.com',
             amount: cartTotal,
             onClose: function () {
