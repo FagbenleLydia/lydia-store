@@ -9,21 +9,21 @@ const data= {
         img: Shoe1,
         title: "heels shime",
         desc: '',
-        price: 57,
+        price: 100,
     },
  {
         id:2,
         img: Shoe2,
         title: "heels se",
         desc: '',
-        price: 47,
+        price: 470,
     },
     {
         id:3,
         img: Shoe3,
         title: "heels blk",
         desc: '',
-        price: 67,
+        price: 670,
     }
   ],
 };

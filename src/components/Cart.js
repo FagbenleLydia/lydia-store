@@ -17,7 +17,7 @@ const Cart = () => {
         let handler = window.ClanePayPop.setup({
             key: 'PK_677A96BB77B7F888C16E20240821073452', // Replace with your public key
             email: 'lydiafagbenle24@gmail.com',
-            amount: cartTotal * 1000,
+            amount: cartTotal * 100,
             onClose: function () {
                 console.log("Window closed.");
             },
@@ -69,7 +69,7 @@ const Cart = () => {
             </div>
             <div className='col-auto'>
                 <button className='btn btn-danger m-2'
-                onClick={() => emptyCart()}
+                onClick={() => emptyCart()} 
                 >Clear Cart</button>
 
                 <button className='btn btn-primary m-2' onClick={() => handlePayNow()}> 
